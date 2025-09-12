@@ -141,3 +141,22 @@ align-items: center;
 .hero_image{
     width:100%;
 }
+.below_section{
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: fit-content;
+}
+.below_section_2{
+    font-size: 25px;
+    font-weight: 500; 
+}
+.below_section_2_div{
+    font-size: 25px;
+    font-weight: 500; 
+    color: #2e79ee;
+}
+.below_section_2_name{
+    margin-top: 5px;
+    color: #7c8a99;
+    text-align: center;  
+}

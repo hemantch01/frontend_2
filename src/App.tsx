@@ -1,4 +1,5 @@
 import './App.css'
+import { BelowHero } from './components/belowHero'
 import { Container } from './components/container'
 import { HeroImage } from './components/heroImages'
 import { HeroSection } from './components/heroSection'
@@ -11,6 +12,7 @@ function App() {
     <Navbar/>
     <HeroSection/>
     <HeroImage/>
+    <BelowHero/>
   </Container>
   </div>
 }
