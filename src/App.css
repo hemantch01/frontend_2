@@ -1,1 +1,75 @@
-@import 'tailwindcss'
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.layout{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom,white,aqua);
+}
+.container{
+    width: 60%;
+    height: 100vh;
+    padding: 5px 10px;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 3px aqua  ;
+}
+
+.brand-logo{
+    font-size: 20px;
+    font-weight: 800;
+}
+.navbar-root{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background: rgba(134, 175, 190, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(13.5px);
+    -webkit-backdrop-filter: blur(13.5px);
+    border: 1px solid rgba(134, 175, 190, 0.37);
+    z-index: 100;
+}
+
+
+.nav_functionality{
+display: flex;
+gap: 15px;
+justify-content:center;
+align-items: center;
+}
+
+.nav_links{
+    text-decoration: none;
+    color: brown;
+}
+
+.nav_links:hover{
+    color: black;
+    border-bottom: 1px solid black;
+    transition: all 0.8s ease-out;
+    
+}
+
+.nav_button{
+    color: white;
+    background-color:blueviolet;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 0px;
+    font-weight:400;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.nav_button:hover{
+    background-color: blue;
+    transition: all 0.3s;
+    cursor: pointer;
+}
