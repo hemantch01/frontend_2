@@ -1,5 +1,6 @@
 import './App.css'
 import { Container } from './components/container'
+import { HeroImage } from './components/heroImages'
 import { HeroSection } from './components/heroSection'
 import { Navbar } from './components/navbar'
 
@@ -9,6 +10,7 @@ function App() {
   <Container>
     <Navbar/>
     <HeroSection/>
+    <HeroImage/>
   </Container>
   </div>
 }

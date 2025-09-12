@@ -9,7 +9,7 @@
 
 .layout{
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     background-image: linear-gradient(to bottom,white,aqua);
 }
 .container{
@@ -136,4 +136,8 @@ align-items: center;
     border: 0px;
     font-weight:400;
     cursor: pointer;
+}
+
+.hero_image{
+    width:100%;
 }
