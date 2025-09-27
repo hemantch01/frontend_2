@@ -274,7 +274,28 @@ align-items: center;
 }
 
 .footer_main_card{
+    width:60%;
+    padding: 50px;
+    border-radius: 12px;
     margin: 15px auto;
     text-align: center;
-    background-color: black;
+ background: radial-gradient(83.87% 100% at 50% 9.62%, rgba(255, 255, 255, 0.00) 62.02%, rgba(255, 255, 255, 0.10) 91.35%), #202020;
+}
+.below_section_2_renew{
+    font-size: 35px;
+    font-weight: 500;
+    color: #feffff; 
+}
+.below_section_2_renew_moreGrey{
+    font-size: 35px;
+    font-weight: 500;
+    color: #cecece; 
+}
+
+.footer_main_smalltext{
+    font-size: 12px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-weight: 500;
+    color: #bbbcbc; 
 }
