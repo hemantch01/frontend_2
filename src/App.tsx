@@ -7,6 +7,7 @@ import { HeroSection } from './components/heroSection'
 import { Navbar } from './components/navbar'
 import { OneDiv } from './components/OneDiv'
 import { TwoDiv } from './components/TwoDiv'
+import { TwoDiv2 } from './components/TwoDiv2'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
   <Container>
     <TwoDiv/>
     <OneDiv/>
+    <TwoDiv2/>
   </Container>
   </Container2>
   </div>

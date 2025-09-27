@@ -254,3 +254,15 @@ align-items: center;
     font-size: 10px;
     color: grey;
 }
+.hero_image_right{
+    width: 100%;
+    margin-bottom: 2px;
+}
+.TwoDiv_png_text_container_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    margin-top: 4px;
+    width: fit-content;
+}
