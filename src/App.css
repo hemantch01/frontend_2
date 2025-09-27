@@ -209,3 +209,48 @@ align-items: center;
     font-size: 10px;
     margin: 5px auto;
 }
+.align_them{
+   text-align: left; 
+}
+.OneDiv{
+    width: 100%;
+    padding: 80px;
+    height: auto;
+    background-color: #efeff1;
+}
+.OneDiv_text{
+    font-size: 25px;
+    font-weight: 500;
+}
+.profile_section{
+    width: fit-content;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.founder_pic{
+    height: 36px;
+    width: 36px;
+    border-radius: 30px;
+    margin-top: 10px; 
+}
+
+.align_them {
+    text-align: left;
+    padding: 0 20px;
+}
+.profile_section_text{
+    margin-top: 10px;
+    margin-left: 5px ;
+}
+.profile_section_text_n{
+    font-weight: 500;
+    font-size: 15px;
+
+}
+.profile_section_text_n2{
+    font-weight: 400;
+    font-size: 10px;
+    color: grey;
+}
