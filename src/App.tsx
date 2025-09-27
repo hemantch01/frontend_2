@@ -6,6 +6,7 @@ import { HeroImage } from './components/heroImages'
 import { HeroSection } from './components/heroSection'
 import { Navbar } from './components/navbar'
 import { OneDiv } from './components/OneDiv'
+import { ThirdSection } from './components/ThirdSection'
 import { TwoDiv } from './components/TwoDiv'
 import { TwoDiv2 } from './components/TwoDiv2'
 
@@ -25,6 +26,7 @@ function App() {
     <TwoDiv2/>
   </Container>
   </Container2>
+<ThirdSection/>
   </div>
 }
 
