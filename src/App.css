@@ -272,3 +272,9 @@ align-items: center;
     padding: 80px;
     background: white;
 }
+
+.footer_main_card{
+    margin: 15px auto;
+    text-align: center;
+    background-color: black;
+}
