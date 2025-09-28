@@ -300,3 +300,23 @@ align-items: center;
     font-weight: 500;
     color: #bbbcbc; 
 }
+.footer_bar_container{
+    width: 100%;
+    background-color: white;
+}
+.footer_bar{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    margin: 0px auto;
+    border-bottom: 1px solid #d4d4d8;
+    margin-bottom: 10px;
+}
+.footer_bar_brothers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
