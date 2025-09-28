@@ -2,6 +2,7 @@ import './App.css'
 import { BelowHero } from './components/belowHero'
 import { Container } from './components/container'
 import { Container2 } from './components/Container2'
+import { CopyRight } from './components/CopyRight'
 import { FooterBar } from './components/FooterBar'
 import { FooterSection } from './components/FooterSection'
 import { HeroImage } from './components/heroImages'
@@ -33,6 +34,7 @@ function App() {
 <PricingSection/>
 <FooterSection/>
 <FooterBar/>
+<CopyRight/>
   </div>
 }
 
